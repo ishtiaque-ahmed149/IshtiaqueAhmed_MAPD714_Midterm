@@ -10,14 +10,36 @@
 */
 
 import UIKit
-
-class ViewController: UIViewController {
+//added delegate method to dismiss keyboard (reference: stackoverflow.com)
+class ViewController: UIViewController, UITextFieldDelegate {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
-        //shoppingGuess.text = shoppingInput.text
+        // assigning delegates for each textField
+        self.shopText.delegate = self
+        self.item1.delegate = self
+        self.item2.delegate = self
+        self.item3.delegate = self
+        self.item4.delegate = self
+        self.item5.delegate = self
+        self.item1quantity.delegate = self
+        self.item2quantity.delegate = self
+        self.item3quantity.delegate = self
+        self.item4quantity.delegate = self
+        self.item5quantity.delegate = self
     }
+    
+    //reference: looked up stackoverflow.com forums to dismiss keyboard
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        textField.resignFirstResponder()
+        return true
+    }
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
+    }
+   // override func touchesBegan(touches: Set<UITouch>, withEvent event: UIEvent?) {
+   //     self.view.endEditing(true)
+   // }
     //creating textfield and lable for shopping list name and a save button
     @IBOutlet weak var button1: UIButton!
     @IBOutlet weak var shopText: UITextField!

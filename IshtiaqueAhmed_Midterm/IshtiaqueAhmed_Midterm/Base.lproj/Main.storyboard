@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina6_1" orientation="landscape" appearance="light"/>
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -13,11 +13,11 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="IshtiaqueAhmed_Midterm" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="896" height="414"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Type shopping list name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="WXe-O4-5oj">
-                                <rect key="frame" x="64" y="141" width="374" height="34"/>
+                                <rect key="frame" x="20" y="141" width="374" height="34"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="374" id="8IZ-r0-R2m"/>
                                     <constraint firstAttribute="height" constant="34" id="Hfm-iy-v3C"/>
@@ -30,7 +30,7 @@
                                 <variation key="heightClass=regular-widthClass=regular" hidden="YES"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Add an item" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="9DB-tW-LkH">
-                                <rect key="frame" x="64" y="316" width="206" height="34"/>
+                                <rect key="frame" x="20" y="316" width="206" height="34"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="206" id="C5N-9d-1Wa"/>
                                     <constraint firstAttribute="height" constant="34" id="cqV-U2-cuy"/>
@@ -43,7 +43,7 @@
                                 <variation key="heightClass=regular-widthClass=regular" hidden="YES"/>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Shopping List" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a2g-AR-0dV">
-                                <rect key="frame" x="64" y="197" width="374" height="39"/>
+                                <rect key="frame" x="20" y="197" width="374" height="39"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="39" id="Q9X-6I-7Rv"/>
                                     <constraint firstAttribute="width" constant="374" id="qc3-uf-pVy"/>
@@ -51,14 +51,14 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="21"/>
                                 <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
-                                <color key="shadowColor" systemColor="linkColor"/>
+                                <color key="shadowColor" red="0.56190428969999995" green="0.88532503699999998" blue="0.91436762829999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <variation key="heightClass=compact-widthClass=compact" hidden="YES"/>
                                 <variation key="heightClass=compact-widthClass=regular" hidden="YES"/>
                                 <variation key="heightClass=regular-widthClass=compact" hidden="NO"/>
                                 <variation key="heightClass=regular-widthClass=regular" hidden="YES"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Create Shopping List" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DC0-Or-SGD">
-                                <rect key="frame" x="44" y="0.0" width="414" height="122"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="122"/>
                                 <color key="backgroundColor" systemColor="systemTealColor"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="414" id="XWF-3e-ML6"/>
@@ -74,8 +74,8 @@
                                 <variation key="heightClass=regular-widthClass=regular" hidden="YES"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p0F-C3-HRs">
-                                <rect key="frame" x="85" y="664" width="150" height="65"/>
-                                <color key="backgroundColor" red="1" green="0.4427508529512999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <rect key="frame" x="41" y="664" width="150" height="65"/>
+                                <color key="backgroundColor" red="1" green="0.61142651996495023" blue="0.061537501466487843" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="65" id="BlJ-bm-6w6"/>
                                     <constraint firstAttribute="width" constant="150" id="xtf-MY-GkG"/>
@@ -94,8 +94,8 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AXD-Dd-lsx">
-                                <rect key="frame" x="263" y="664" width="150" height="65"/>
-                                <color key="backgroundColor" red="1" green="0.4427508529512999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <rect key="frame" x="219" y="664" width="150" height="65"/>
+                                <color key="backgroundColor" red="1" green="0.61142651996495023" blue="0.061537501466487843" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="65" id="AWX-0o-yln"/>
                                     <constraint firstAttribute="width" constant="150" id="hHd-jb-kqz"/>
@@ -114,7 +114,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Enter new list item" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="67C-rI-gVf">
-                                <rect key="frame" x="64" y="262" width="171" height="36"/>
+                                <rect key="frame" x="20" y="262" width="171" height="36"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="36" id="OjK-ze-Avo"/>
                                     <constraint firstAttribute="width" constant="171" id="jzb-5r-Z6d"/>
@@ -129,7 +129,7 @@
                                 <variation key="heightClass=regular-widthClass=regular" hidden="YES"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Quantity" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R8R-fI-nNQ">
-                                <rect key="frame" x="263" y="262" width="168" height="36"/>
+                                <rect key="frame" x="219" y="262" width="168" height="36"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="36" id="Bqr-Gc-Aep"/>
                                     <constraint firstAttribute="width" constant="168" id="Cd0-Gv-r1I"/>
@@ -144,7 +144,7 @@
                                 <variation key="heightClass=regular-widthClass=regular" hidden="YES"/>
                             </label>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Add an item" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="oM1-1B-wn1">
-                                <rect key="frame" x="64" y="520" width="206" height="34"/>
+                                <rect key="frame" x="20" y="520" width="206" height="34"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="34" id="RXU-l6-5tP"/>
                                     <constraint firstAttribute="width" constant="206" id="wfF-xe-oxK"/>
@@ -157,7 +157,7 @@
                                 <variation key="heightClass=regular-widthClass=regular" hidden="YES"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="0" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="8o5-zK-glF">
-                                <rect key="frame" x="296" y="316" width="40" height="34"/>
+                                <rect key="frame" x="252" y="316" width="40" height="34"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="34" id="EmW-BS-8b2"/>
                                     <constraint firstAttribute="width" constant="40" id="XDh-GD-Clh"/>
@@ -170,7 +170,7 @@
                                 <variation key="heightClass=regular-widthClass=regular" hidden="YES"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="0" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="yge-ZT-7dZ">
-                                <rect key="frame" x="296" y="520" width="41" height="34"/>
+                                <rect key="frame" x="252" y="520" width="41" height="34"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="41" id="1AH-ho-g84"/>
                                     <constraint firstAttribute="height" constant="34" id="gEj-Lz-50m"/>
@@ -183,7 +183,7 @@
                                 <variation key="heightClass=regular-widthClass=regular" hidden="YES"/>
                             </textField>
                             <stepper opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" maximumValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="G2N-4N-Qxv">
-                                <rect key="frame" x="344" y="316" width="94" height="32"/>
+                                <rect key="frame" x="300" y="316" width="94" height="32"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="94" id="CQT-9w-cL8"/>
                                     <constraint firstAttribute="height" constant="32" id="NFU-BC-NNo"/>
@@ -197,7 +197,7 @@
                                 </connections>
                             </stepper>
                             <stepper opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" maximumValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="n8R-BI-OlR">
-                                <rect key="frame" x="344" y="520" width="94" height="32"/>
+                                <rect key="frame" x="300" y="520" width="94" height="32"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="32" id="Dxo-Jl-dDm"/>
                                     <constraint firstAttribute="width" constant="94" id="zJ9-Tz-fbX"/>
@@ -211,7 +211,7 @@
                                 </connections>
                             </stepper>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Add an item" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="0Dp-X4-sgx">
-                                <rect key="frame" x="64" y="367" width="206" height="34"/>
+                                <rect key="frame" x="20" y="367" width="206" height="34"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="34" id="GtV-cy-90I"/>
                                     <constraint firstAttribute="width" constant="206" id="iPJ-td-xsU"/>
@@ -224,7 +224,7 @@
                                 <variation key="heightClass=regular-widthClass=regular" hidden="YES"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Add an item" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="t16-H1-4h6">
-                                <rect key="frame" x="64" y="418" width="206" height="34"/>
+                                <rect key="frame" x="20" y="418" width="206" height="34"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="206" id="CEi-Ii-f3O"/>
                                     <constraint firstAttribute="height" constant="34" id="zoP-70-5K9"/>
@@ -237,7 +237,7 @@
                                 <variation key="heightClass=regular-widthClass=regular" hidden="YES"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Add an item" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="D1r-Qq-hPD">
-                                <rect key="frame" x="64" y="469" width="206" height="34"/>
+                                <rect key="frame" x="20" y="469" width="206" height="34"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="34" id="SSa-EF-Jdn"/>
                                     <constraint firstAttribute="width" constant="206" id="xXP-EK-pJs"/>
@@ -250,7 +250,7 @@
                                 <variation key="heightClass=regular-widthClass=regular" hidden="YES"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="0" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="krg-fG-jMv">
-                                <rect key="frame" x="296" y="367" width="41" height="34"/>
+                                <rect key="frame" x="252" y="367" width="41" height="34"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="34" id="GMQ-7T-V75"/>
                                     <constraint firstAttribute="width" constant="41" id="Jld-7R-za3"/>
@@ -263,7 +263,7 @@
                                 <variation key="heightClass=regular-widthClass=regular" hidden="YES"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="0" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="hwG-PQ-d7D">
-                                <rect key="frame" x="296" y="418" width="41" height="34"/>
+                                <rect key="frame" x="252" y="418" width="41" height="34"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="41" id="BKZ-xF-IfJ"/>
                                     <constraint firstAttribute="height" constant="34" id="tAv-4J-zdB"/>
@@ -276,7 +276,7 @@
                                 <variation key="heightClass=regular-widthClass=regular" hidden="YES"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="0" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ybG-bD-MPX">
-                                <rect key="frame" x="296" y="469" width="41" height="34"/>
+                                <rect key="frame" x="252" y="469" width="41" height="34"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="34" id="97g-MH-rJV"/>
                                     <constraint firstAttribute="width" constant="41" id="9uk-vS-xfs"/>
@@ -289,7 +289,7 @@
                                 <variation key="heightClass=regular-widthClass=regular" hidden="YES"/>
                             </textField>
                             <stepper opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" maximumValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="8Z4-Cn-y5o">
-                                <rect key="frame" x="344" y="367" width="94" height="32"/>
+                                <rect key="frame" x="300" y="367" width="94" height="32"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="94" id="gNx-7e-bkv"/>
                                     <constraint firstAttribute="height" constant="32" id="lfq-zf-wTY"/>
@@ -303,7 +303,7 @@
                                 </connections>
                             </stepper>
                             <stepper opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" maximumValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="MRL-NI-W09">
-                                <rect key="frame" x="344" y="418" width="94" height="32"/>
+                                <rect key="frame" x="300" y="418" width="94" height="32"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="94" id="Tfe-CX-Iij"/>
                                     <constraint firstAttribute="height" constant="32" id="hkR-aS-fMZ"/>
@@ -317,7 +317,7 @@
                                 </connections>
                             </stepper>
                             <stepper opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" maximumValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="jcV-RO-GcM">
-                                <rect key="frame" x="344" y="469" width="94" height="32"/>
+                                <rect key="frame" x="300" y="469" width="94" height="32"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="94" id="Ykm-HB-KKn"/>
                                     <constraint firstAttribute="height" constant="32" id="Z0T-xl-xtg"/>
@@ -331,7 +331,7 @@
                                 </connections>
                             </stepper>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Create Shopping List" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8o1-kd-VZv">
-                                <rect key="frame" x="0.0" y="0.0" width="896" height="51"/>
+                                <rect key="frame" x="0.0" y="44" width="896" height="51"/>
                                 <color key="backgroundColor" systemColor="systemTealColor"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="896" id="8IZ-bG-kWp"/>
@@ -346,7 +346,7 @@
                                 <variation key="heightClass=regular-widthClass=regular" hidden="NO"/>
                             </label>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Type shopping list name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Pij-5r-GpI">
-                                <rect key="frame" x="44" y="72" width="374" height="34"/>
+                                <rect key="frame" x="0.0" y="116" width="374" height="34"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="374" id="Lif-FU-kES"/>
                                     <constraint firstAttribute="height" constant="34" id="YPJ-hw-Cu5"/>
@@ -359,7 +359,7 @@
                                 <variation key="heightClass=regular-widthClass=regular" hidden="YES"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Add an item" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Ym6-tb-I9W">
-                                <rect key="frame" x="474" y="124" width="206" height="34"/>
+                                <rect key="frame" x="430" y="168" width="206" height="34"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="206" id="k1f-Vi-28M"/>
                                     <constraint firstAttribute="height" constant="34" id="yvT-6l-Ccb"/>
@@ -372,7 +372,7 @@
                                 <variation key="heightClass=regular-widthClass=regular" hidden="YES"/>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Enter new list item" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Pr-eG-dUV">
-                                <rect key="frame" x="474" y="70" width="171" height="36"/>
+                                <rect key="frame" x="430" y="114" width="171" height="36"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="36" id="TGf-QR-ORq"/>
                                     <constraint firstAttribute="width" constant="171" id="pSc-xd-SZP"/>
@@ -387,7 +387,7 @@
                                 <variation key="heightClass=regular-widthClass=regular" hidden="YES"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Quantity" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VSj-Ag-rSZ">
-                                <rect key="frame" x="673" y="70" width="168" height="36"/>
+                                <rect key="frame" x="629" y="114" width="168" height="36"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="168" id="4MS-NV-RrW"/>
                                     <constraint firstAttribute="height" constant="36" id="6Vw-JZ-y64"/>
@@ -402,7 +402,7 @@
                                 <variation key="heightClass=regular-widthClass=regular" hidden="YES"/>
                             </label>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Add an item" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="lak-ON-otl">
-                                <rect key="frame" x="474" y="328" width="206" height="34"/>
+                                <rect key="frame" x="430" y="372" width="206" height="34"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="206" id="6h4-j7-zZP"/>
                                     <constraint firstAttribute="height" constant="34" id="oIe-nY-pwC"/>
@@ -415,7 +415,7 @@
                                 <variation key="heightClass=regular-widthClass=regular" hidden="YES"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="0" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="sbU-q3-Yoy">
-                                <rect key="frame" x="706" y="124" width="40" height="34"/>
+                                <rect key="frame" x="662" y="168" width="40" height="34"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="34" id="j8A-bX-JCb"/>
                                     <constraint firstAttribute="width" constant="40" id="tSh-kc-pDt"/>
@@ -428,7 +428,7 @@
                                 <variation key="heightClass=regular-widthClass=regular" hidden="YES"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="0" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="eJ0-w8-yrJ">
-                                <rect key="frame" x="706" y="328" width="41" height="34"/>
+                                <rect key="frame" x="662" y="372" width="41" height="34"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="41" id="61q-t8-5MX"/>
                                     <constraint firstAttribute="height" constant="34" id="IkV-ep-4mJ"/>
@@ -441,7 +441,7 @@
                                 <variation key="heightClass=regular-widthClass=regular" hidden="YES"/>
                             </textField>
                             <stepper opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" maximumValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="1nP-Qw-Zqe">
-                                <rect key="frame" x="754" y="124" width="94" height="32"/>
+                                <rect key="frame" x="710" y="168" width="94" height="32"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="94" id="Z1U-2b-hcd"/>
                                     <constraint firstAttribute="height" constant="32" id="qMC-6P-uac"/>
@@ -452,7 +452,7 @@
                                 <variation key="heightClass=regular-widthClass=regular" hidden="YES"/>
                             </stepper>
                             <stepper opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" maximumValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="ro5-Uh-zT8">
-                                <rect key="frame" x="754" y="328" width="94" height="32"/>
+                                <rect key="frame" x="710" y="372" width="94" height="32"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="94" id="GkL-BG-oVq"/>
                                     <constraint firstAttribute="height" constant="32" id="zwh-XW-Bvu"/>
@@ -466,7 +466,7 @@
                                 </connections>
                             </stepper>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Add an item" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Qui-Xj-TuQ">
-                                <rect key="frame" x="474" y="175" width="206" height="34"/>
+                                <rect key="frame" x="430" y="219" width="206" height="34"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="34" id="Bqc-Yc-Ffx"/>
                                     <constraint firstAttribute="width" constant="206" id="kv1-mW-JdU"/>
@@ -479,7 +479,7 @@
                                 <variation key="heightClass=regular-widthClass=regular" hidden="YES"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Add an item" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ejq-Fn-dcb">
-                                <rect key="frame" x="474" y="226" width="206" height="34"/>
+                                <rect key="frame" x="430" y="270" width="206" height="34"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="206" id="Fcp-zj-Twb"/>
                                     <constraint firstAttribute="height" constant="34" id="IRz-kc-JlC"/>
@@ -492,7 +492,7 @@
                                 <variation key="heightClass=regular-widthClass=regular" hidden="YES"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Add an item" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="en0-rP-Xp4">
-                                <rect key="frame" x="474" y="277" width="206" height="34"/>
+                                <rect key="frame" x="430" y="321" width="206" height="34"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="34" id="AjR-bo-NSD"/>
                                     <constraint firstAttribute="width" constant="206" id="Rvp-d6-R66"/>
@@ -505,7 +505,7 @@
                                 <variation key="heightClass=regular-widthClass=regular" hidden="YES"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="0" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="a5J-vx-7F4">
-                                <rect key="frame" x="706" y="175" width="41" height="34"/>
+                                <rect key="frame" x="662" y="219" width="41" height="34"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="34" id="60D-If-iTy"/>
                                     <constraint firstAttribute="width" constant="41" id="fwZ-lu-WmS"/>
@@ -518,7 +518,7 @@
                                 <variation key="heightClass=regular-widthClass=regular" hidden="YES"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="0" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="im0-Ts-JZd">
-                                <rect key="frame" x="706" y="226" width="41" height="34"/>
+                                <rect key="frame" x="662" y="270" width="41" height="34"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="34" id="SNQ-yq-Odz"/>
                                     <constraint firstAttribute="width" constant="41" id="p4G-6X-PrA"/>
@@ -531,7 +531,7 @@
                                 <variation key="heightClass=regular-widthClass=regular" hidden="YES"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="0" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="KRs-Wd-j72">
-                                <rect key="frame" x="706" y="277" width="41" height="34"/>
+                                <rect key="frame" x="662" y="321" width="41" height="34"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="34" id="G43-8G-YIp"/>
                                     <constraint firstAttribute="width" constant="41" id="Ixi-J4-gRQ"/>
@@ -544,7 +544,7 @@
                                 <variation key="heightClass=regular-widthClass=regular" hidden="YES"/>
                             </textField>
                             <stepper opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" maximumValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="0ZR-Bf-YCG">
-                                <rect key="frame" x="754" y="175" width="94" height="32"/>
+                                <rect key="frame" x="710" y="219" width="94" height="32"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="32" id="U89-qs-XDe"/>
                                     <constraint firstAttribute="width" constant="94" id="hqv-Su-azl"/>
@@ -558,7 +558,7 @@
                                 </connections>
                             </stepper>
                             <stepper opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" maximumValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="w97-lg-6nh">
-                                <rect key="frame" x="754" y="226" width="94" height="32"/>
+                                <rect key="frame" x="710" y="270" width="94" height="32"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="94" id="4nP-Mz-MoT"/>
                                     <constraint firstAttribute="height" constant="32" id="Pvx-B7-lRg"/>
@@ -572,7 +572,7 @@
                                 </connections>
                             </stepper>
                             <stepper opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" maximumValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="ZlZ-WU-Nwk">
-                                <rect key="frame" x="754" y="277" width="94" height="32"/>
+                                <rect key="frame" x="710" y="321" width="94" height="32"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="94" id="MXz-vp-YkU"/>
                                     <constraint firstAttribute="height" constant="32" id="V4A-bh-iUq"/>
@@ -586,8 +586,8 @@
                                 </connections>
                             </stepper>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Oo-c1-I2e">
-                                <rect key="frame" x="67" y="226" width="150" height="65"/>
-                                <color key="backgroundColor" red="1" green="0.442750853" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <rect key="frame" x="23" y="226" width="150" height="65"/>
+                                <color key="backgroundColor" red="1" green="0.62276736359649298" blue="0.14310335346175174" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="150" id="ZcC-gP-IBG"/>
                                     <constraint firstAttribute="height" constant="65" id="rrc-xb-q5c"/>
@@ -603,8 +603,8 @@
                                 <variation key="heightClass=regular-widthClass=regular" hidden="YES"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iNH-av-wvT">
-                                <rect key="frame" x="245" y="226" width="150" height="65"/>
-                                <color key="backgroundColor" red="1" green="0.442750853" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <rect key="frame" x="201" y="226" width="150" height="65"/>
+                                <color key="backgroundColor" red="1" green="0.62276736359649298" blue="0.14310335346175174" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="150" id="3TU-Uw-gXE"/>
                                     <constraint firstAttribute="height" constant="65" id="Nls-9A-ho2"/>
@@ -620,7 +620,7 @@
                                 <variation key="heightClass=regular-widthClass=regular" hidden="YES"/>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Shopping List" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZS6-vt-tJG">
-                                <rect key="frame" x="44" y="136" width="374" height="39"/>
+                                <rect key="frame" x="0.0" y="136" width="374" height="39"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="374" id="FAu-Wi-45n"/>
                                     <constraint firstAttribute="height" constant="39" id="W7t-sN-eV3"/>
@@ -628,7 +628,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="21"/>
                                 <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
-                                <color key="shadowColor" systemColor="linkColor"/>
+                                <color key="shadowColor" red="0.45631935550000002" green="0.71896754969999999" blue="0.74255287690000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <variation key="heightClass=compact-widthClass=compact" hidden="YES"/>
                                 <variation key="heightClass=compact-widthClass=regular" hidden="NO"/>
                                 <variation key="heightClass=regular-widthClass=compact" hidden="YES"/>
@@ -759,9 +759,6 @@
         <image name="trash.fill" catalog="system" width="121" height="128"/>
         <systemColor name="labelColor">
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
-        <systemColor name="linkColor">
-            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
